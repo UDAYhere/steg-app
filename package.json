@@ -1,0 +1,11 @@
+{
+  "name": "steganography-app",
+  "version": "1.0.0",
+  "description": "Hide and extract text from PNG images using LSB steganography",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "dev": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start"
+  }
+}

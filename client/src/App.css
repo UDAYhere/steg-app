@@ -1,0 +1,67 @@
+.App {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.App-header {
+  text-align: center;
+  color: #1a202c;
+  margin-bottom: 50px;
+}
+
+.App-header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.App-header p {
+  font-size: 1rem;
+  color: #718096;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+.tabs {
+  display: flex;
+  background: #fafafa;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 16px 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #718096;
+  transition: all 0.2s;
+  border-bottom: 2px solid transparent;
+}
+
+.tabs button:hover {
+  color: #2d3748;
+  background: #f7fafc;
+}
+
+.tabs button.active {
+  background: white;
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}
+
+.tab-content {
+  padding: 40px;
+}
